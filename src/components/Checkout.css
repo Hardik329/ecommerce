@@ -1,0 +1,13 @@
+.checkout{
+    height: max-content;
+    display: flex;
+    padding: 5px;
+    
+}
+.checkout__title{
+    border-bottom: 1px solid lightgray;
+}
+/* .checkout__left{
+    display: felx;
+    flex-direction: column;
+} */
