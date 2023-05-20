@@ -1,7 +1,6 @@
 node_modules
 **/.firebase
 build
-.github
 .firebaserc
 firebase**
 package-lock.json

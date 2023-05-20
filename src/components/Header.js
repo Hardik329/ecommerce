@@ -5,6 +5,7 @@ import {Link} from "react-router-dom"
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { useStateValue } from '../StateProvider';
 import { auth } from '../firebase';
+import { IconButton } from '@mui/material';
 
 function Header() {
 
@@ -26,7 +27,9 @@ function Header() {
       </Link>
       <div className='header__search'>
         <input className='header__searchInput' type='text'/>
-        <SearchIcon className='searchIcon mr-3'/>
+        <IconButton>
+          <SearchIcon className='searchIcon mr-3'/>
+        </IconButton>
       </div>
       <div className='header__nav flex justify-evenly'>
         <Link to={!user &&'/login'}>

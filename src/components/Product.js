@@ -23,8 +23,8 @@ function Product({id, title,image,price,rating}) {
     };
 
   return (
-    <div className='product flex flex-col border-4 items-center justify-end'>
-        <div className="product__info h-24 mb-4">
+    <div className='product flex flex-col  justify-end'>
+        <div className="product__info  mb-4">
             <p>{title}</p>
             <div className='product__price flex mt-1'>
                 <span className='text-sm mr-0.5'>₹</span>

@@ -1,8 +1,26 @@
 .checkout{
     height: max-content;
     display: flex;
-    padding: 5px;
+    padding-left: 10px;
+    padding: 20px;
+    /* margin-left: 10px; */
+    /* flex-direction: space; */
+    justify-content: space-between;
+    /* padding-left: 5%; */
+    /* margin-left: 10%; */
     
+}
+.checkout__left{
+    padding: 15px;
+    width: 75%;
+
+}
+
+.checkout__ad{
+    width: 100%;
+}
+.checkout__right{
+    margin-right: 20px;
 }
 .checkout__title{
     border-bottom: 1px solid lightgray;

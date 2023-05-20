@@ -32,4 +32,9 @@ const reducer =(state,action)=> {
 
 };
 
+export const getCartTotal = (cart)=>{
+    const total=cart?.reduce((sum,num)=>sum+num.price,0);
+    return total;
+}
+
 export default reducer;

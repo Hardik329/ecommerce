@@ -29,10 +29,7 @@ function Login() {
         .then((auth)=>{
             // Success
             console.log(auth);
-            if(auth){
-                navigate('/');
-
-            }
+            navigate('/');
         })
         .catch(error=>alert(error.message))
 
