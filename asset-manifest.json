@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hardik329/ecommerce/static/css/main.201c12cc.css",
+    "main.js": "/Hardik329/ecommerce/static/js/main.9aab354f.js",
+    "static/js/787.c075ba41.chunk.js": "/Hardik329/ecommerce/static/js/787.c075ba41.chunk.js",
+    "index.html": "/Hardik329/ecommerce/index.html",
+    "main.201c12cc.css.map": "/Hardik329/ecommerce/static/css/main.201c12cc.css.map",
+    "main.9aab354f.js.map": "/Hardik329/ecommerce/static/js/main.9aab354f.js.map",
+    "787.c075ba41.chunk.js.map": "/Hardik329/ecommerce/static/js/787.c075ba41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.201c12cc.css",
+    "static/js/main.9aab354f.js"
+  ]
+}
