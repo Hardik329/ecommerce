@@ -1,20 +1,12 @@
 
-import axios from 'axios'
-
 export const initialState = {
     cart: [],
     user: null,
     searchResults:[]
 };
 
-const getData = async ()=>{
-    // console.log("fun called");
-    const result = await axios.get('https://dummyjson.com/products').then(res=>{initialState.searchResults=res.data.products}).catch(err=>console.log(err));
-}
 
-getData();
 
-console.log(initialState);
 
 const reducer =(state,action)=> {
     switch(action.type){

@@ -2,8 +2,22 @@ import React, { useEffect, useState } from "react";
 import Product from "./Product";
 import "./Home.css";
 import { useStateValue } from "../StateProvider";
+import axios from 'axios'
+
+
+
 function Home() {
   const [{ searchResults }, dispatch] = useStateValue();
+
+  const getData = async ()=>{
+    console.log("fun called");
+    await axios.get('https://dummyjson.com/products').then(res=>{  dispatch({type:'SEARCH_RESULTS',searchResults:res.data.products})
+  }).catch(err=>console.log(err));
+}
+
+  useEffect(()=>{
+    getData();
+  },[])
 
 
   const searchData = searchResults.map((product) => {
