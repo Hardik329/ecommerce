@@ -1,12 +1,21 @@
 
 .product{
     margin: 10px;
-    padding: 20px;
-    width: 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding: 40px;
+    
+    /* width: 100%; */
+    /* width:fit-content; */
+    width: auto;
     max-height: 400px;
     min-width: 100px;
 
-    background-color: white;
+    /* background-color: white; */
+    background-color: rgb(234,237,237);
+    box-shadow: 2px 3px rgb(238,240,240);
+
+
     z-index: 1;
 
 }
@@ -14,6 +23,7 @@
 .product > img{
     max-height: 200px;
     width: 100%;
+    padding: 20px;
     object-fit: contain;
     margin-bottom: 15px;
 }
@@ -22,6 +32,7 @@
     background-color: #f0c14b;
     border: 1px solid;
     margin-top: 10px;
+    
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
     padding: 0px 4px;

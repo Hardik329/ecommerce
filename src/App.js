@@ -44,7 +44,8 @@ function App() {
         <Routes>
           <Route path='/' element={[<Header/>,<Home/>]}/>
           <Route path='checkout' element={[<Header/>,<Checkout/>]}/>
-          <Route path='/login' element={<Login/>}/>
+          <Route path='/login' element={<Login type="login"/>}/>
+          <Route path='/register' element={<Login type="register"/>}/>
           <Route path='/payment' element={[<Header/>,<Elements stripe={promise}><Payment/></Elements> ]}/>
         </Routes>
       </div>

@@ -4,6 +4,8 @@ import './Product.css'
 
 function Product({id, title,image,price,rating}) {
 
+    rating = Math.round(rating)
+
     const [{cart},dispatch] = useStateValue();
     
 
